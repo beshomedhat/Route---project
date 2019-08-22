@@ -35,3 +35,36 @@
 }
 
 /* ------------------------------------------------------------------ */
+
+/* ------------------------------ what we do ------------------------ */
+.we-do
+{
+    background-image: url(../images/bg-image-26.jpg);
+    background-size: cover; 
+}
+.what-we-do
+{
+    background-color: rgba(0,0,0,0.5);
+}
+.we-do-ico h4
+{
+    font-size: 13px;
+}
+
+.we-do-caption ul
+{
+   list-style-type:none;
+}
+
+.we-do-caption .we-do-h2:before
+{
+    content: "W";
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    color: rgba(1,1,1,0.2);
+    font-size: 70px;
+    left: 7%;
+    top:10%;
+}
+/* ------------------------------------------------------------------ */
