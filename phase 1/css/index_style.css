@@ -68,3 +68,73 @@
     top:10%;
 }
 /* ------------------------------------------------------------------ */
+
+/* ------------------------------ Our Work -------------------------- */
+.line
+{
+    height: 1px;
+    background-color: black;
+    width: 5%;
+    margin: auto;
+    transition: width 0.5s;
+}
+.our-work-h:hover .line
+{
+    width: 8%;
+}
+.ourwork-ul li
+{
+    border: #26CCDF 1px solid;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+}
+.item
+{
+    overflow: hidden;
+}
+.items-caption
+{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: -100%;
+    background-color: whitesmoke;
+    transition: bottom 1s;
+}
+.item:hover .items-caption
+{
+    bottom: 5%;
+}
+.item img
+{
+    width: 100%;
+    transition: transform 1s;
+}
+.item:hover img
+{
+    transform: scale(1.2 , 1.2);
+}
+.items-caption p
+{
+    position:relative;
+    left: 120%;
+    transition: left 1s 2s;
+}
+.item:hover .items-caption p
+{
+    left: 0%;
+}
+.items-caption h4
+{
+    position:relative;
+    left: 120%;
+    transition: left 1s 1s;
+}
+.item:hover .items-caption h4
+{
+    left: 0%;
+}
+/* ------------------------------------------------------------------ */
+
