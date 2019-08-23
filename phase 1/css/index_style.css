@@ -1,3 +1,85 @@
+
+
+
+
+
+
+
+.mm
+{
+    border: 4px solid #fff;
+    position: relative;
+    
+    overflow: hidden;
+}
+.mm img
+{
+    width:100%;
+    transition: transform 1s 1s;
+}
+
+.mm:hover img
+{
+    transform: scale(1.2,1.2);
+}
+.llll
+{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+.mm .cc
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(41,63,85,.7);
+    position: absolute;
+    opacity: 0;
+    transition: transform 1s,opacity 1s;
+    top:0;
+    text-align: center;
+    color: #fff;
+}
+.mm:hover .cc
+{
+    opacity: 1;
+    transform: rotate(720deg);
+}
+.mm .cc h2
+{
+    background-color: rgba(21,21,21,0.4);
+    padding: 20px;
+    left: 120%;
+    transition: left 1s 2s;
+    position: relative;
+
+}
+.mm .cc p
+{
+    padding: 30px;
+    font-size: 20px;
+    left: 120%;
+    transition: left 1s 2.5s;
+    position: relative;
+}
+.mm:hover .cc h2
+{
+      left:0; 
+}
+.mm:hover .cc p
+{
+      left:0; 
+}
+
+
+
+
+
+
+
+
+
+
 /* ------------------------------ Creative Team --------------------- */
 .creative-team h2
 {
@@ -163,3 +245,15 @@ textarea.form-control
     color: #58606b;
 }
 /* --------------------------------------------------*/
+
+
+
+
+
+
+
+
+/* -----------Poula Section------------------------*/
+
+
+
